@@ -1,0 +1,8 @@
+public class FirstWebDriver {
+     @Test
+    public void startFirstWebDriver(){
+        // System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
+         WebDriver webDriver = new ChromeDriver();
+         webDriver.get("https://www.google.com.ua/");
+     }
+}
